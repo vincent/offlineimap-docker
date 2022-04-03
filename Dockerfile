@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-RUN apt-get update && apt-get install -y cron offlineimap ca-certificates
+RUN apt-get update && apt-get install -y cron offlineimap ca-certificates mpack
 RUN useradd -ms /bin/bash imapuser
 
 VOLUME [ "/localrepo" ]
