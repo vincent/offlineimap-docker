@@ -7,7 +7,7 @@ Containerized https://github.com/OfflineIMAP/offlineimap
 # Getting Started
 
 1. Create a `offlineimaprc` config. See [this](http://www.offlineimap.org/doc/use_cases.html) page for examples.
-2. Run the container `docker run -v /path/to/offlineimaprc:/offlineimap.conf:ro vincent/offlineimap`
+2. Run the container `docker run -v /path/to/offlineimaprc:/offlineimap.conf:ro allyouneedisgnu/offlineimap`
 
 # Usage
 
